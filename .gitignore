@@ -6,6 +6,10 @@
 *.swp
 .buildlog/
 .history
+# 🛑 The Veil Blocks — Files That Do Not Cross Over
+node_modules/
+.env
+.DS_Store
 
 
 

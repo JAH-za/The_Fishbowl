@@ -1,18 +1,11 @@
-# Miscellaneous
-.buildlog/
-.history
-The_Fishbowl/
-├── package.json ← (now fixed)
-├── src/
-├── public/
-git add .
-git commit -m "fix: clean up package.json for Vercel build"
-git push origin main
-bash
-git add package.json
-git commit -m "fix: clean package.json for Vercel deployment"
-git push origin main
-
+# Universal Ignores
+node_modules/
+.env
+.DS_Store
+# 🐠 Surface Noise — Universal Clutter We Leave Behind
+node_modules/
+.env
+.DS_Store
 
 # Flutter repo-specific
 /bin/cache/

@@ -6,7 +6,10 @@
 *.swp
 .buildlog/
 .history
-
+The_Fishbowl/
+├── package.json ← (now fixed)
+├── src/
+├── public/
 
 
 # Flutter repo-specific

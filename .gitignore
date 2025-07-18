@@ -417,8 +417,24 @@ const FishbowlOnboarding = () => {
 };
 
 export default FishbowlOnboarding;
-<img src="/assets/fishbowl-logo.png" alt="Fishbowl Logo" />
-"C:\Users\jason\OneDrive\Fishbowl\Logo's\FBLogo.png"
+/public
+/public/assets/
+<img src="/assets/FBLogo.png" alt="Fishbowl Logo" />
+<header style={{ textAlign: 'center' }}>
+  <img 
+    src="/assets/FBLogo.png" 
+    alt="Fishbowl Logo" 
+    style={{ width: '120px', height: 'auto', marginBottom: '1rem' }} 
+  />
+  <h1 style={{
+    fontFamily: 'MoglanDemo',
+    fontSize: '3.5rem',
+    color: '#FDF8F5'
+  }}>
+    The Fishbowl
+  </h1>
+</header>
+
 
 # Flutter repo-specific
 /bin/cache/

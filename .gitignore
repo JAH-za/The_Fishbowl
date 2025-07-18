@@ -8,7 +8,10 @@ The_Fishbowl/
 git add .
 git commit -m "fix: clean up package.json for Vercel build"
 git push origin main
-
+bash
+git add package.json
+git commit -m "fix: clean package.json for Vercel deployment"
+git push origin main
 
 
 # Flutter repo-specific

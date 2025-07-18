@@ -1,1 +1,6 @@
-
+The_Fishbowl/
+├── package.json
+├── src/
+├── public/
+├── README.md
+npm init -y
